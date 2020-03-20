@@ -1,24 +1,32 @@
-item_name,text,Type,Answers,Values,Optional,
-Instructions1,Choose one response that best describes how strongly each item applies to you:,Instruct,,,,
-q1,Intelligence can increase or decrease depending on whether or not you spend time exercising your mind.,radio,Agree|Not Sure|Disagree,1|0|0,No,
-break0,,,,,,
-q2,What would be MORE impacted by damage to the RIGHT side of your brain than the LEFT?,checkbox,"Ability to say ""Lesser leather never weathered wetter weather better.""|Ability to recognise faces by sight|Multiply 2 X 3 X 4 X 5|Navigate",1|0|1|0,No,
-break1,,page_break,,,,
-q3,beep,,,,,
-break2,,,,,,
-q4,,,,,,
-break3,,,,,,
-q5,,,,,,
-break4,,,,,,
-q6,,,,,,
-break5,,,,,,
-q7,,,,,,
-break6,,,,,,
-q8,,,,,,
-break7,,,,,,
-q9,,,,,,
-break8,,,,,,
-q10,,,,,,
-break9,,,,,,
-q11,,,,,,
-,,,,,,
+item_name,text,Type,Answers,Values,Optional,feedback,feedback_color
+,,page_start,,,,,
+Instructions1,Choose one response that best describes how strongly each item applies to you:,Instruct,,,,,
+q1,1. Intelligence can increase or decrease depending on whether or not you spend time exercising your mind.,radio,Agree|Not Sure|Disagree,1|0|0,,Correct!| You should find that you change your mind as the lecture goes on|You should find that you change your mind as the lecture goes on,green|orange|red
+break0,,page_start,,,,,
+q2,2. What would be MORE impacted by damage to the RIGHT side of your brain than the LEFT?,checkbox,"Ability to say ""Lesser leather never weathered wetter weather better.""|Ability to recognise faces by sight|Multiply 2 X 3 X 4 X 5|Navigate",0|1|0|1,,This is associated with the left hemisphere|Correct!|This is associate with the left hemisphere|Correct!,red|green|red|green
+break1,,page_start,,,,,
+q3,"3. <img src=""../User/Stimuli/splitbrain.png""><br>In this figure, what shape is the left hemisphere perceiving?",radio,The triangle|The square|Both|Neither,0|1|0|0,,"No, that is perceived by the right hemisphere|Correct!|Each hemisphere will only see one side|Each hemisphere will receive the opposite side's visual information",red|green|red|red
+break2,,page_start,,,,,
+q4,"4. <img src=""../User/Stimuli/splitbrain.png""><br>In this figure, if the participant had their corpus callosum removed, which shape would they be more likely to say out loud?",radio,The triangle|The square|Both|Neither,0|1|0|0,,"No, that is perceived by the right hemisphere|Correct!|Each hemisphere will only see one side|Each hemisphere will receive the opposite side's visual information",red|green|red|red
+break3,,page_start,,,,,
+q5,"5. <img src=""../User/Stimuli/no_corpus_callosum.png""><br>A patient with no CORPUS CALLOSUM is presented an image of a brush on the left side of a screen briefly. What do we expect them to repond if asked what they saw?",radio,"A brush|""Scissors""|""I don't know""",0|0|1,,"The brush would be sent to their right hemisphere, which is not associated with language|They can't see the scissors|Correct - as their left hemisphere doesn't receive any image",red|red|green
+break4,,page_start,,,,,
+q6,"6. <img src=""../User/Stimuli/no_corpus_callosum.png""><br>Which hand would a patient with no CORPUS CALLOSUM be able to recognise by TOUCH the item they SAW on the LEFT side of the screen?",radio,left|right|either,1|0|0,,"Yes - the left hand and the left visual field are both connected to the right hemisphere of the brain|No, see the information above for the correct answer|No, see the information above for the correct answer",green|red|red
+break5,,page_start,,,,,
+q7,"7. <img src=""../User/Stimuli/hammer_ball.png""><br>Which object would a patient with no CORPUS CALLOSUM write down with their RIGHT hand?",radio,hammer|ball|both|neither,0|1|0|0,,"No - that information would go to their right hemisphere rather than the left (which is not associated with language)|Yes, both the right hand and right visual field are connected to the left hemisphere|See the correct answer above|See the correct answer above",red|green|red|red
+break6,,page_start,,,,,
+q8,"8. <img src=""../User/Stimuli/hammer_ball.png""><br>Which object would a patient with no CORPUS CALLOSUM write down with their Left hand?",radio,hammer|ball|both|neither,0|0|0|1,,Maybe - but as the right hemisphere is not associated with language the participant may not be able to write it down|No - this would go to the wrong hemisphere|No - see last option|Correct! Because it would go to the right hemisphere which is not associated with language,orange|red|red|green
+break7,,page_start,,,,,
+q9,9. The link between neurons is stronger if: (multiple correct options),checkbox,There are more paired axons and dendrites between the neurons (i.e. more synapses)|The post-synaptic neuron has more receptors|The pre-synaptic neuron releases more neurotransmitters|None of the above,1|1|1|0,,Correct!|Correct!|Correct!|,green|green|green|red
+break8, ,page_start,,,,,
+q10,10. Long-Term Depression happens when,radio,There are few pre-synaptic action potentials|There are many pre-synaptic action potentials|Neither of the above,1|0|0,,Correct!|Incorrect|Incorrect,green|red|red
+break9,,page_start,,,,,
+q11,11. Long-Term Potentiation happens when,radio,There are few pre-synaptic action potentials|There are many pre-synaptic action potentials|Neither of the above,0|1|0,,Incorrect|Correct!|Incorrect,red|green|red
+break10,,page_start,,,,,
+q12,12. Increased grey matter in the posterior hippocampus for more experienced taxi drivers suggests:,radio,Grey matter can increase in response to experience (in at least the posterior hippocampus)|People who like driving taxis tend to have more grey matter|Neither of the above,1|0|0,,Correct! The key factor is that <b>Experience</b> predicts the amount of grey matter|Incorrect - see above|Incorrect,green|red|red
+break11,,page_start,,,,,
+q13,13. The repurposing of the Primary Visual Cortex for Braille in blind people suggests:,radio,Each region of the brain has a very specific function|Brain regions can be rewired very strongly by experience|Both|None of the above,0|1|0|0,,No - because the region couldn't be repurposed if this was true|Correct! A region that is usually used for vision is changing drastically to reflect the individual's experiences|See feedback above|See feedback above,red|green|red|red
+break12,,page_start,,,,,
+q14,"14. Taub's evidence from forcing stroke patients to use their affected limb extensively, and from Nudo's evidence of monkeys doing easy vs. hard food retrieval suggests:",radio,The more effort an individual makes the more extensive their brain will be rewired|That effort has little impact on neural development and connectivity|Both|None of the above,1|0|0|0,,Correct!|Incorrect|Incorrect|Incorrect,green|red|red|red
+break13,,page_start,,,,,
+q15,15. Intelligence can increase or decrease depending on whether or not you spend time exercising your mind.,radio,Agree|Not Sure|Disagree,1|0|0,,Correct!| Incorrect - we have seen examples of how much our brain is influenced by experience during this lecture|Incorrect - we have seen examples of how much our brain is influenced by experience during this lecture,green|orange|red
