@@ -1,4 +1,4 @@
 Item,Trial Type,Max Time,Text,shuffle 1,survey
-0,instruct,user,"Welcome, this should help you understand the contents of the lecture. <h1 class='text-danger'>Please complete this link on google chrome if possible</h1>",off,
+0,instruct,user,"Welcome, this should help you understand the contents of the lecture. <h1 class='text-danger'>Please complete this link on google chrome if possible - this link doesn't work on microsoft explorer or edge</h1>",off,
 0,instruct,user,These questions are simply to help consolidate the materials from the lecture. Please feel free to complete this as many times as you like! This is entirely anonymous.,off,
 2,survey,user,,off,py1ip2_lecture_10_tidied.csv
